@@ -1,0 +1,33 @@
+{
+  "name": "cad-file-block-viewer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "dev": "concurrently \"nodemon server.js\" \"npm run dev --prefix ../frontend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "dxf-parser": "^1.1.2",
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.1",
+    "pg-hstore": "^2.3.4",
+    "postcss": "^8.4.49",
+    "sequelize": "^6.37.7",
+    "tailwindcss": "^3.4.14"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
