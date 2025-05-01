@@ -15,7 +15,6 @@ A full-stack web application for uploading, parsing, and interactively viewing b
 git clone https://github.com/aswanthnarayan/cad-file-block-viewer.git
 cd cad-file-block-viewer
 ```
-
 ### 2. Configure Environment Variables
 Create a `.env` file in the root and backend directories
 
